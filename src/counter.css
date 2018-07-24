@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 2rem;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  font-size: inherit;
+}
+
+.capsule {
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: baseline;
+  width: 2rem;
+}
+
+.capsule:active {
+  color: lightgrey;
+}
+
+.Counter {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Counter-increment {
+  background-color: lightgreen;
+  border: 2px solid green;
+}
+
+.Counter-decrement {
+  background-color: lightpink;
+  border: 2px solid darkred;
+}
+
+.Counter-output {
+  border: 2px solid lightblue;
+}
